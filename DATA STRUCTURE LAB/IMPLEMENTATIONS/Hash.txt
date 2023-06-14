@@ -1,0 +1,35 @@
+Hashing is a way to store data into some data structure (generally Hash Table is used) 
+in such a way that the basic operations on that data i.e. the insertion, deletion, 
+and searching can be performed in O(1) time
+
+Hash tables are used as disk-based data structures and database indexing. 
+They can be used to implement caches mainly used to that are used to speed 
+up the access to data. Several dynamic programming languages like Python, 
+JavaScript, and Ruby use hash tables to implement objects.
+
+Summry of Data Structure:
+
+Arrays: 
+	Insertion,deletion slow, Access is fast {operation using index and pointers,
+ static/dynamic arrays}
+
+LinkList: 
+	 Best for insertion deletion but not good for searching, memory management issue.
+	{structure and classes}
+	OOP concept: {constructor, destructor etc.}
+	Runtime memory allocation
+
+*** Array and Linklist Application:
+
+Stack: Expression Evaluation (prefix, postfix), undo opr,  Backtracking, Reverse a Data,
+		 Processing Function Calls
+Queue: CPU scheduling, disk scheduling, Handling website traffic, asynchronous transfer of data
+
+Trees: 
+	BST, AVL: linklist.   At some point best for searching but not to much efficient than Hash
+		 Best for statistics: mean , Median , Mode, Min, Max, quartiles, sort etc.
+	Heap tree: Best for Priority Queue. Djikstra's Algorithm, Heap Sort algorithm
+
+Hash: 
+	Searching is fast no specific order O(1) complexity best case , better than tree in search operation.
+	Memory Management is not Efficient.
